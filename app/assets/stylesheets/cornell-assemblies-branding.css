@@ -1,0 +1,186 @@
+/*
+ *= require_tree ./blitzer
+ *= require cornell-assemblies-rails
+ */
+
+/* css for cuwebbanner */
+
+body {
+ 	margin: 0;
+	padding: 0;
+ 	}
+#cu-identity-wrap {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 63.125%;		/* translate 1.0em to 10px, 1.5em to 15px, etc. */
+	color: #222;
+	height: 45px;
+	background: #B31B1B;
+	}
+
+#cu-identity-content {
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+	height: 45px;
+	background: url(layout/cornell.gif) no-repeat ;
+	}
+
+#cu-identity-content a {
+	position: absolute;
+	display: block;
+	border: none;
+	/* hide text link */
+	text-indent: -1000em;
+	text-decoration: none;
+	}
+
+#cu-identity-content img {
+	display: none;
+	}
+
+#insignia-link {
+	width: 80px;
+	height: 88px;
+	}
+
+#unit-signature-links a {
+	left: 80px;
+	width: 185px;
+	}
+
+#cornell-link {
+	height: 35px;
+	}
+
+#unit-link1 {
+	top: 35px;
+	height: 20px;
+	}
+
+#unit-link2 {
+	top: 55px;
+	height: 33px;
+	}
+
+#search-form {
+	position: absolute;
+	top: 18px;
+	right: 0;
+	}
+
+#search-form form {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	}
+
+#search-input label {
+	color: #FFFFFF;
+	}
+
+#search-form.banner-45 #search-input label {
+	position: absolute;
+	top: -1000em;
+	left: -1000em;
+	}
+
+#search-form label {
+	color: #FFFFFF;
+	}
+
+#search-form-query {
+	padding: 3px;
+	width: 145px;
+	border: none;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 1.1em;
+	color: #ffffff;
+	background: #990f0f url(layout/headerbgsearch.gif) no-repeat top left;
+	vertical-align: middle;
+	}
+
+#search-form-submit {
+	padding: 0px 2px 3px 2px;;
+	border-top: 1px solid #bf6060;
+	border-left: 1px solid #bf6060;
+	border-right: 1px solid #400606;
+	border-bottom: 1px solid #400606;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 1.0em;
+	color: #ffffff;
+	background: #900;
+	vertical-align: middle;
+	}
+
+#search-filters {
+	margin: 5px 0 0 0;
+	}
+
+#search-filters input {
+	vertical-align: middle;
+	margin: 0;
+	}
+
+#search-filters label {
+	vertical-align: middle;
+	margin: 0 10px 0 0;
+	}
+
+#search-filters a {
+	position: relative;
+	display: inline;
+	color: #ffffff;
+}
+
+#search-form a {
+	border-bottom: 1px solid #e5cfcf;
+	color:#FFFFFF;
+	}
+
+#search-form a:hover {
+	border-bottom: 1px solid #ffffff;
+}
+
+#search-navigation {
+	position: absolute;
+	top: 37px;
+	right: 0;
+	}
+
+#search-navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 1.1em;
+	}
+
+#search-navigation li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: none;
+	}
+
+#search-navigation a {
+	display: inline;
+	float: left;
+	padding: 5px 15px;
+	color: #ffffff;
+	text-indent: 0;
+	position: relative;
+	}
+
+#search-navigation a:hover {
+	background: #990f26;
+	}
+
+#skipnav {
+	position: absolute;
+	top: -1000em;
+	left: -1000em;
+	}
+
+hr.banner-separator {
+	display: none;
+	}
+
