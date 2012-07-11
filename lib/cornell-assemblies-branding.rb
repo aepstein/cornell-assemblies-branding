@@ -1,2 +1,2 @@
-module CornellAssembliesBranding
-end
+require 'cornell-assemblies-branding/rails'
+
