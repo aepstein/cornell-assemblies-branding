@@ -1,3 +1,5 @@
+require 'cornell-assemblies-branding/version'
+
 module CornellAssembliesBranding
 
   module Rails
