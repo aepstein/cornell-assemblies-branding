@@ -1,3 +1,5 @@
 = CornellAssembliesBranding
 
-This project rocks and uses MIT-LICENSE.
+This project contains the shared branding templates used by the Rails projects created for the Office of the Assemblies.
+
+Cornell brands and logos are removed as they are for official use only.
